@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6e079ffe194d8b99369c9e0ddce534, type: 3}
+  m_Name: DefenceItemData
+  m_EditorClassIdentifier: 
+  defenceItems:
+  - health: 5
+    damage: 3
+    range: 4
+    interval: 3
+    type: 1
+    directionType: 2
+    defenceItemPrefab: {fileID: 3579220994253202782, guid: 99616ea4ef04d4c6fa8b853fa3e4d502, type: 3}
+  - health: 10
+    damage: 5
+    range: 2
+    interval: 4
+    type: 2
+    directionType: 2
+    defenceItemPrefab: {fileID: 4046707662427407029, guid: fbc383f90833a4a58b440121aa635b34, type: 3}
+  - health: 15
+    damage: 10
+    range: 1
+    interval: 5
+    type: 3
+    directionType: 30
+    defenceItemPrefab: {fileID: 2998332068959509688, guid: 15d6ff765a77d45529d6c0edacfe96b8, type: 3}
+  projectilePrefab: {fileID: -4016667100300185816, guid: 7fea4a7d2f22544e996cb467e03dea3f, type: 3}
